@@ -35,7 +35,7 @@ var total_bayar = 0;
 function tampil() {
     var tabel = document.getElementById("tabel");
     tabel.innerHTML =
-        "<tr><th>No</th><th>Nama</th><th>Harga Satuan</th><th>Jumlah</th><th>Total</th><th id='aksiId' class='noExport'>Action</th></tr>";
+"<tr><th>No</th><th>Nama</th><th>Harga Satuan</th><th>Jumlah</th><th>Total</th><th id='aksiId' class='noExport'>Action</th></tr>";
     for (let i = 0; i < nama_barang.length; i++) {
 
         var harga_satuan_reverse = harga_satuan[i].toString().split('').reverse().join(''),

@@ -1,0 +1,53 @@
+body {
+    background-color: #F1F8FF; /* Warna latar belakang biru langit */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.title
+{
+    max-width: 1200px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.report-table {
+    width: 100%;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.report-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.report-table th,
+.report-table td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.report-table th {
+    background-color: #42A5F5; /* Warna header biru */
+    color: #FFFFFF;
+}
+
+.report-table td {
+    color: #333333;
+}
+
+.report-table tbody tr:hover {
+    background-color: #E3F2FD; /* Warna latar belakang saat dihover */
+    cursor: pointer;
+}
